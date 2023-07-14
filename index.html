@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/fav.png" />
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>3 en Raya</title>
 </head>
 <body>
-    <header>
-        <h1 class="header__h1">3 en Raya</h1>
 
+    <header class="header">
+            <img    src="./images/tablero1.png"
+                    alt="Imagen tablero"
+                    class="header__img">
+        <h1 class="header__h1">Juego del 3 en Raya</h1>
+            <img    src="./images/tablero2.png"
+                    alt="Imagen tablero"
+                    class="header__img">
     </header>
+
     <main>
         <aside class="main__aside">
             <h2 class="main__aside-h2" id="player1_title">Jugador 1</h2>
@@ -62,12 +72,33 @@
                     </td>
                 </tr>
             </table>
-
         </section>
 
+        <aside class="main__aside">
+            <h2 class="main__aside-h2" id="player2_title">Jugador 2</h2>
+            <picture class="main__aside-picture">
+                <img src="images/esperando.png" alt="Imagen inicial" id="img_palyer1">
+            </picture>
+            <div class="main__div">
+                <p class="main__div-p">Puntuación:</p>
+                <p class="main__div-numb-score" id="score2">0</p>
+            </div>
+        </aside>
     </main>
-    <footer>
 
+    <footer class="footer">
+        <button type="button" class="button_start" id="randomGame">
+            Sortear partida
+        </button>
+
+        <button type="button" class="button_start" id="nextGame" disabled>
+            Nuevo juego
+        </button>
+
+        <button type="button" class="button_start" id="reset" disabled>
+            Reiniciar
+        </button>
     </footer>
+
 </body>
 </html>
