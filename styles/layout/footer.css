@@ -15,11 +15,11 @@
     border: none;
     /* font-size: 1.4rem; */
     font-weight: 600;
-    background-color: aquamarine;
+    background-color: cornsilk;
     cursor: pointer;
 }
 
 #nextGame, #reset{
     cursor: default;
-    background-color: cornflowerblue;
+    background-color: currentColor;
 }

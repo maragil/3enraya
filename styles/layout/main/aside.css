@@ -1,6 +1,7 @@
 .main{
     width: 100%;
-    /* height: calc(100vh - 100px); */
+    height: 70vh;
+    /* height: calc(100vh - 200px); */
     /* background-color: #6aa2cd; */
     padding: 20px;
     display: flex;
