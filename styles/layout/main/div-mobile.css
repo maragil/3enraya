@@ -1,0 +1,28 @@
+.main__div-mobile{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* color: white; */
+}
+
+.player-mobile-p{
+    font-size: 1.8rem;
+}
+
+#score1, #score2, #score_1m, #score_2m{
+    font-size: 3rem;
+}
+
+.player-mobile{
+    width: 45%;
+    height: 100px;
+    padding-top: 5px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background:  linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
