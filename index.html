@@ -25,7 +25,7 @@
 
     <main class="main">
         <aside class="main__aside">
-            <h2 class="main__aside-h2"          id="player1_title">Jugador 1</h2>
+            <h2 class="main__aside-h2" id="player1_title">Jugador 1</h2>
             <picture class="main__aside-picture">
                 <img    src="images/esperando.png"
                         alt="Imagen inicial"
@@ -42,37 +42,55 @@
             <table class="main__section-table">
                 <tr>
                     <td id="c1_1">
-                        <button class="button_sel button_select" type="button" id="button_active1"></button>
+                        <button class="button_sel button_select"
+                                type="button"
+                                id="button_active1"></button>
                     </td>
                     <td id="c1_2">
-                        <button class="button_sel button_select" type="button" id="button_active2"></button>
+                        <button class="button_sel button_select"
+                                type="button"
+                                id="button_active2"></button>
                     </td>
                     <td id="c1_3">
-                        <button class="button_sel button_select" type="button" id="button_active3"></button>
+                        <button class="button_sel button_select"
+                                type="button"
+                                id="button_active3"></button>
                     </td>
                 </tr>
 
                 <tr>
                     <td id="c2_1">
-                        <button class="button_sel button_select" type="button" id="button_active4"></button>
+                        <button class="button_sel button_select"
+                                type="button"
+                                id="button_active4"></button>
                     </td>
                     <td id="c2_2">
-                        <button class="button_sel button_select" type="button" id="button_active5"></button>
+                        <button class="button_sel button_select"
+                                type="button"
+                                id="button_active5"></button>
                     </td>
                     <td id="c2_3">
-                        <button class="button_sel button_select" type="button" id="button_active6"></button>
+                        <button class="button_sel button_select"
+                                type="button"
+                                id="button_active6"></button>
                     </td>
                 </tr>
 
                 <tr>
                     <td id="c3_1">
-                        <button class="button_sel button_select" type="button" id="button_active7"></button>
+                        <button class="button_sel button_select"
+                                type="button"
+                                id="button_active7"></button>
                     </td>
                     <td id="c3_2">
-                        <button class="button_sel button_select" type="button" id="button_active8"></button>
+                        <button class="button_sel button_select"
+                                type="button"
+                                id="button_active8"></button>
                     </td>
                     <td id="c3_3">
-                        <button class="button_sel button_select" type="button" id="button_active9"></button>
+                        <button class="button_sel button_select"
+                                type="button"
+                                id="button_active9"></button>
                     </td>
                 </tr>
             </table>
@@ -92,7 +110,8 @@
         </div>
 
         <aside class="main__aside">
-            <h2 class="main__aside-h2" id="player2_title">Jugador 2</h2>
+            <h2 class="main__aside-h2"
+                id="player2_title">Jugador 2</h2>
             <picture class="main__aside-picture">
                 <img    src="images/esperando.png"
                         alt="Imagen inicial"
@@ -100,8 +119,9 @@
                         class="main__aside-picture__emoji">
             </picture>
             <div class="main__div">
-                <p class="main__div-p">Puntuación:</p>
-                <p class="main__div-numb-score" id="score2">0</p>
+                <p  class="main__div-p">Puntuación:</p>
+                <p  class="main__div-numb-score"
+                    id="score2">0</p>
             </div>
         </aside>
     </main>
@@ -109,7 +129,8 @@
     <!-- Ventana modal -->
     <div class="modal-container">
         <div class="modal modal-close">
-            <img    src="./images/sunglasses.png"    alt="Imagen inicio de partida"
+            <img    src="./images/sunglasses.png"
+                    alt="Imagen inicio de partida"
                     class="modal-img">
             <div class="modal-text">
                 <h1 id="playerInit">Hola</h1>
@@ -123,18 +144,24 @@
     </div>
 
     <footer class="footer">
-        <button type="button" class="footer_button" id="randomGame">
+        <button type="button"
+                class="footer_button"
+                id="randomGame">
             Sortear partida
         </button>
 
-        <button type="button" class="footer_button" id="nextGame" disabled>
+        <button type="button"
+                class="footer_button"
+                id="nextGame" disabled>
             Nuevo juego
         </button>
 
-        <button type="button" class="footer_button" id="reset" disabled>
+        <button type="button"
+                class="footer_button"
+                id="reset" disabled>
             Reiniciar
         </button>
     </footer>
-
+<script src="./utils/index.js"></script>
 </body>
 </html>
