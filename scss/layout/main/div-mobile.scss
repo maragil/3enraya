@@ -3,7 +3,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* color: white; */
 }
 
 #score1, #score2, #score_1m, #score_2m{
@@ -16,7 +15,7 @@
     padding-top: 5px;
     border: 2px solid white;
     border-radius: 20px;
-    background: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+    background: $score-players-color;
     display: flex;
     flex-direction: column;
     align-items: center;
