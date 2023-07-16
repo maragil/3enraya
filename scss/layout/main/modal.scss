@@ -24,20 +24,19 @@
     position: relative;
     transition: transform 1s;
     transform: translateY(0%);
-}
 
-.modal-close{
-    transform: translateY(-200%);
-}
+    &-close{
+        transform: translateY(-200%);
+    }
+    &-img{
+        width: 80%;
+    }
 
-.modal-img{
-    width: 80%;
-}
-
-.modal-text{
-    font-size: 1.5rem;
-    color:brown;
-    text-align: center;
+    &-text{
+        font-size: 1.5rem;
+        color:brown;
+        text-align: center;
+    }
 }
 
 .button_start {

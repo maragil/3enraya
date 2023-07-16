@@ -6,10 +6,6 @@
     /* color: white; */
 }
 
-.player-mobile-p{
-    font-size: 1.8rem;
-}
-
 #score1, #score2, #score_1m, #score_2m{
     font-size: 3rem;
 }
@@ -24,5 +20,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+
+    &-p{
+        font-size: 1.8rem;
+    }
 }

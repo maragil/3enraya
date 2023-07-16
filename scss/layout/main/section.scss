@@ -1,32 +1,25 @@
 .main__section{
     background-color: lightcyan;
-    /* background: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%); */
-    /* background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%); */
-    /* background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%); */
-    /* background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%); */
-    /* background: linear-gradient(to top, rgb(229, 231, 235), rgb(156, 163, 175), rgb(75, 85, 99)); */
-    /* opacity: 0.6; */
     width: 100%;
     height: 70%;
     border: 6px solid black;
     border-radius: 20px;
     padding: 10px;
-}
 
-.main__section-table{
+    &-table{
     width: 100%;
     height: 100%;
     border-collapse: collapse;
-}
 
-.main__section-table td{
-    text-align: center;
-    font-size: 4.5rem;
-    width: 33.33%;
-}
-
-.main__section-table tr{
-    height: 33.33%;
+        & td{
+        text-align: center;
+        font-size: 4.5rem;
+        width: 33.33%;
+        }
+        & tr{
+        height: 33.33%;
+        }
+    }
 }
 
 #c1_1, #c1_2, #c2_1, #c2_2, #c3_1, #c3_2{

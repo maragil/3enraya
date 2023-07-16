@@ -6,17 +6,16 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
-}
 
-.footer_button{
-    height: 55px;
-    width: 200px;
-    border-radius: 10px;
-    border: none;
-    /* font-size: 1.4rem; */
-    font-weight: 600;
-    background-color: cornsilk;
-    cursor: pointer;
+    &_button{
+        height: 55px;
+        width: 200px;
+        border-radius: 10px;
+        border: none;
+        font-weight: 600;
+        background-color: cornsilk;
+        cursor: pointer;
+    }
 }
 
 #nextGame, #reset{

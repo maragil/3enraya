@@ -6,14 +6,12 @@
     align-items: center;
     justify-content:space-around;
     /* gap: 3rem; */
-}
 
-.header__h1{
-    font-size: 3rem;
-}
-
-.header__img{
+    &__img{
     width: 15%;
     object-fit: contain;
+    }
+    &__h1{
+    font-size: 3rem;
+    }
 }
-

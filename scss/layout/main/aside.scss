@@ -7,8 +7,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
 
-.main__aside{
+    &__aside{
     display: none;
+    }
 }
