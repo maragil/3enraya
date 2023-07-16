@@ -13,18 +13,24 @@ body {
 
 .header {
   width: 100%;
-  /* height: 10rem; */
   margin-block: 2rem;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  /* gap: 3rem; */ }
+  justify-content: space-around; }
   .header__img {
     width: 15%;
     object-fit: contain; }
   .header__h1 {
     font-size: 3rem; }
 
+@media (min-width: 870px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px; }
+    .header__img {
+      width: 6%; } }
 .footer {
   width: 100%;
   height: 50px;
@@ -46,6 +52,9 @@ body {
   cursor: default;
   background-color: currentColor; }
 
+@media (min-width: 870px) {
+  .footer {
+    padding-top: 45px; } }
 .main {
   width: 100%;
   height: 70vh;
@@ -56,6 +65,37 @@ body {
   .main__aside {
     display: none; }
 
+@media (min-width: 870px) {
+  .main {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px; }
+    .main__aside {
+      display: block;
+      width: 20%;
+      height: 100%;
+      border: 2px solid white;
+      border-radius: 20px;
+      background: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around; }
+      .main__aside-h2 {
+        letter-spacing: 1.5px;
+        font-size: 1.8rem;
+        text-align: center; }
+      .main__aside-picture {
+        width: 80%;
+        display: flex;
+        justify-content: center; }
+        .main__aside-picture__emoji {
+          width: 80%; }
+    .main__div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.8rem; } }
 .main__section {
   background-color: lightcyan;
   width: 100%;
@@ -93,6 +133,10 @@ body {
   display: none;
   font-size: 4.5rem; }
 
+@media (min-width: 870px) {
+  .main__section {
+    width: 50%;
+    height: 100%; } }
 .main__div-mobile {
   height: 20%;
   display: flex;
@@ -115,6 +159,9 @@ body {
   .player-mobile-p {
     font-size: 1.8rem; }
 
+@media (min-width: 870px) {
+  .main__div-mobile {
+    display: none; } }
 .modal-container {
   position: fixed;
   z-index: 1000;

@@ -22,3 +22,9 @@
     cursor: default;
     background-color: currentColor;
 }
+
+@media (min-width:870px){
+    .footer{
+        padding-top: 45px;
+    }
+}

@@ -24,3 +24,9 @@
         font-size: 1.8rem;
     }
 }
+
+@media (min-width:870px){
+    .main__div-mobile{
+        display: none;
+    }
+}

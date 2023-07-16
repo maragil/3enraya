@@ -44,3 +44,10 @@
     display: none;
     font-size: 4.5rem;
 }
+
+@media (min-width:870px){
+    .main__section{
+        width: 50%;
+        height: 100%;
+    }
+}
