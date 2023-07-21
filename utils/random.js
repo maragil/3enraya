@@ -1,4 +1,6 @@
-function random(newGame){
+import startGame from "./startGame.js";
+
+function random (newGame){
 
     var player1; //me permite retornar el valor y almacenarla en index.js: player1 = random(newGame);
     const randomMatch = Math.floor(Math.random()*2) + 1;

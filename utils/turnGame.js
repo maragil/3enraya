@@ -1,0 +1,1 @@
+//para que cuando se clique en sortear partida aparezca la ventana modal y cambie la apariencia e imágenes de los asides
