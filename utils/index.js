@@ -1,7 +1,12 @@
 "use strict";
 
-const sortearPartida = document.querySelector('#randomGame');
+import random from "./random.js";
 
-sortearPartida.onclick = () => {
-    
+var player1;
+var newGame = false;
+
+const raffleGame = document.querySelector('#randomGame');
+
+raffleGame.onclick = () => {
+    player1 = random(newGame);
 }
