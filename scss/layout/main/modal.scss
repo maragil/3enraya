@@ -13,8 +13,7 @@
 }
 
 .modal{
-    width: 60%;
-    height: 70%;
+    width: 30%;
     padding: 10px;
     overflow: hidden;
     display: flex;
@@ -24,6 +23,7 @@
     position: relative;
     transition: transform 1s;
     transform: translateY(0%);
+    gap: 20px;
 
     &-close{
         transform: translateY(-200%);

@@ -176,8 +176,7 @@ body {
   visibility: hidden; }
 
 .modal {
-  width: 60%;
-  height: 70%;
+  width: 30%;
   padding: 10px;
   overflow: hidden;
   display: flex;
@@ -186,7 +185,8 @@ body {
   justify-content: space-around;
   position: relative;
   transition: transform 1s;
-  transform: translateY(0%); }
+  transform: translateY(0%);
+  gap: 20px; }
   .modal-close {
     transform: translateY(-200%); }
   .modal-img {
