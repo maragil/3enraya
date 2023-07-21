@@ -1,3 +1,5 @@
+import turnGame from "./turnGame.js";
+
 function startGame (newGame, player1) {
 
     var i; //para hacer el barrido
