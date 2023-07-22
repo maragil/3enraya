@@ -31,7 +31,7 @@ function random (newGame){
 
     const btnReset = document.getElementById('reset'); //activar el btn reiniciar
     btnReset.disable = false; //activar el btn
-    btnReset.style.backgroundColor = 'cornsilk'; //cambiar el color para q se vea inactivo
+    btnReset.style.backgroundColor = '$button-color'; //cambiar el color para q se vea inactivo
     btnReset.style.cursor = 'pointer';
 
     return player1;
