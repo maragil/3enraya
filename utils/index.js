@@ -2,13 +2,20 @@
 
 import random from "./random.js";
 import hideModal from "./hideModal.js";
+import { winPlayer1, winPlayer2 } from "./winner.js";
 
 var player1; //true or false
 var newGame = false; //primer juego
 var selectionCounter = 0;
-var winner; //0 1 2 3
+var winner = 0; //0 1 2 3
 var score1 = 0; //points player1
 var score2 = 0; //points player2
+
+var matrix = [
+    [0, 0, 0],
+    [0, 0, 0],
+    [0, 0, 0]
+];
 
 const raffleGame = document.querySelector('#randomGame');
 const start = document.querySelector('#start');
