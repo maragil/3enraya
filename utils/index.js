@@ -3,6 +3,7 @@
 import random from "./random.js";
 import hideModal from "./hideModal.js";
 import { winPlayer1, winPlayer2 } from "./winner.js";
+import { btn1 } from "./boardBtns.js";
 
 var player1; //true or false
 var newGame = false; //primer juego
@@ -95,5 +96,7 @@ activeBtn1.onclick = () => {
     clicksCounter();
 
     points();
+
+    console.log(matrix);
 }
 

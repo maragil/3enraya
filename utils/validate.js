@@ -11,20 +11,20 @@ function validate(player1, matrix, selectionCounter){
     }
 
     if(player1){
-        symbol = 'X';
+        symbol = 'x';
     }else{
-        symbol = 'O';
+        symbol = 'o';
     }
 
 
     //Primera fila
     if( symbol === matrix[0][0] && symbol === matrix[0][1] && symbol === matrix[0][2] ){
 
-        if(symbol === 'X'){
+        if(symbol === 'x'){
             winner = 1;
             gamesNumber +=1;
 
-        }else if(symbol === 'O'){
+        }else if(symbol === 'o'){
             winner = 2;
             gamesNumber +=1;
 
@@ -38,11 +38,11 @@ function validate(player1, matrix, selectionCounter){
     //Segunda fila
     else if( symbol === matrix[1][0] && symbol === matrix[1][1] && symbol === matrix[1][2] ){
 
-        if(symbol === 'X'){
+        if(symbol === 'x'){
             winner = 1;
             gamesNumber +=1;
 
-        }else if(symbol === 'O'){
+        }else if(symbol === 'o'){
             winner = 2;
             gamesNumber +=1;
 
@@ -56,11 +56,11 @@ function validate(player1, matrix, selectionCounter){
     //Tercera fila
     else if( symbol === matrix[2][0] && symbol === matrix[2][1] && symbol === matrix[2][2] ){
 
-        if(symbol === 'X'){
+        if(symbol === 'x'){
             winner = 1;
             gamesNumber +=1;
 
-        }else if(symbol === 'O'){
+        }else if(symbol === 'o'){
             winner = 2;
             gamesNumber +=1;
 
@@ -74,11 +74,11 @@ function validate(player1, matrix, selectionCounter){
     //Primera columna
     else if( symbol === matrix[0][0] && symbol === matrix[1][0] && symbol === matrix[2][0] ){
 
-        if(symbol === 'X'){
+        if(symbol === 'x'){
             winner = 1;
             gamesNumber +=1;
 
-        }else if(symbol === 'O'){
+        }else if(symbol === 'o'){
             winner = 2;
             gamesNumber +=1;
 
@@ -92,11 +92,11 @@ function validate(player1, matrix, selectionCounter){
     //Segunda columna
     else if( symbol === matrix[0][1] && symbol === matrix[1][1] && symbol === matrix[2][1] ){
 
-        if(symbol === 'X'){
+        if(symbol === 'x'){
                 winner = 1;
                 gamesNumber +=1;
 
-        }else if(symbol === 'O'){
+        }else if(symbol === 'o'){
                 winner = 2;
                 gamesNumber +=1;
 
@@ -110,11 +110,11 @@ function validate(player1, matrix, selectionCounter){
     //Tercera columna
     else if( symbol === matrix[0][2] && symbol === matrix[1][2] && symbol === matrix[2][2] ){
 
-        if(symbol === 'X'){
+        if(symbol === 'x'){
             winner = 1;
             gamesNumber +=1;
 
-        }else if(symbol === 'O'){
+        }else if(symbol === 'o'){
             winner = 2;
             gamesNumber +=1;
 
@@ -129,11 +129,11 @@ function validate(player1, matrix, selectionCounter){
     //Diagonal 1
     else if( symbol === matrix[0][0] && symbol === matrix[1][1] && symbol === matrix[2][2] ){
 
-        if(symbol === 'X'){
+        if(symbol === 'x'){
             winner = 1;
             gamesNumber +=1;
 
-        }else if(symbol === 'O'){
+        }else if(symbol === 'o'){
             winner = 2;
             gamesNumber +=1;
 
@@ -147,11 +147,11 @@ function validate(player1, matrix, selectionCounter){
     //Diagonal 2
     else if( symbol === matrix[0][2] && symbol === matrix[1][1] && symbol === matrix[2][0] ){
 
-        if(symbol === 'X'){
+        if(symbol === 'x'){
             winner = 1;
             gamesNumber +=1;
 
-        }else if(symbol === 'O'){
+        }else if(symbol === 'o'){
             winner = 2;
             gamesNumber +=1;
 

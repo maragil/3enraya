@@ -14,9 +14,9 @@ function winPlayer1 (score1) {
     document.getElementById('player1_title').style.fontSize = '18px';
     document.getElementById('player2_title').style.fontSize = '18px';
 
-    const score1 = document.getElementById('score1');
+    const score_1 = document.getElementById('score1');
     const score1m = document.getElementById('score_1m');
-    score1.innerText = score1;
+    score_1.innerText = score1;
     score1m.innerText = score1;
 
     //activar el btn de nuevo juego
@@ -47,9 +47,9 @@ function winPlayer2 (score2) {
     document.getElementById('player1_title').style.fontSize = '18px';
     document.getElementById('player2_title').style.fontSize = '18px';
 
-    const score2 = document.getElementById('score2');
+    const score_2 = document.getElementById('score2');
     const score2m = document.getElementById('score_2m');
-    score2.innerText = score2;
+    score_2.innerText = score2;
     score2m.innerText = score2;
 
     //activar el btn de nuevo juego
