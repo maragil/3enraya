@@ -8,8 +8,8 @@ var player1; //true or false
 var newGame = false; //primer juego
 var selectionCounter = 0;
 var winner = 0; //0 1 2 3
-var score1 = 0; //points player1
-var score2 = 0; //points player2
+var score1 = 0; //puntos player1
+var score2 = 0; //puntos player2
 
 var matrix = [
     [0, 0, 0],
