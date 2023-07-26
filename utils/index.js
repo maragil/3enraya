@@ -3,8 +3,12 @@
 import random from "./random.js";
 import hideModal from "./hideModal.js";
 
-var player1;
-var newGame = false;
+var player1; //true or false
+var newGame = false; //primer juego
+var selectionCounter = 0;
+var winner; //0 1 2 3
+var score1 = 0; //points player1
+var score2 = 0; //points player2
 
 const raffleGame = document.querySelector('#randomGame');
 const start = document.querySelector('#start');
@@ -18,6 +22,32 @@ const activeBtn6 = document.querySelector('#button_active6');
 const activeBtn7 = document.querySelector('#button_active7');
 const activeBtn8 = document.querySelector('#button_active8');
 const activeBtn9 = document.querySelector('#button_active9');
+
+function clicksCounter () {
+    selectionCounter += 1;
+
+    if(selectionCounter === 9){
+        selectionCounter = 0;
+    }
+}
+
+function points () {
+    if(winner === 1){
+        score1 += 1;
+        winPlayer1(score1);
+        selectionCounter = 0;
+
+    }else if(winner === 2){
+        score2 += 1;
+        winPlayer2(score2);
+        selectionCounter = 0;
+
+    }else if(winner === 3){
+        selectionCounter = 0;
+    }
+}
+
+
 
 raffleGame.onclick = () => {
     player1 = random(newGame);
