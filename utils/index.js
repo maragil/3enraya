@@ -9,6 +9,16 @@ var newGame = false;
 const raffleGame = document.querySelector('#randomGame');
 const start = document.querySelector('#start');
 
+const activeBtn1 = document.querySelector('#button_active1');
+const activeBtn2 = document.querySelector('#button_active2');
+const activeBtn3 = document.querySelector('#button_active3');
+const activeBtn4 = document.querySelector('#button_active4');
+const activeBtn5 = document.querySelector('#button_active5');
+const activeBtn6 = document.querySelector('#button_active6');
+const activeBtn7 = document.querySelector('#button_active7');
+const activeBtn8 = document.querySelector('#button_active8');
+const activeBtn9 = document.querySelector('#button_active9');
+
 raffleGame.onclick = () => {
     player1 = random(newGame);
 }
@@ -37,4 +47,13 @@ window.addEventListener('click',
         }
 
     }
-)
+);
+
+activeBtn1.onclick = () => {
+    var result = btn1(player1, matrix, selectionCounter);
+
+    clicksCounter();
+
+    points();
+}
+
