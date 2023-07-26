@@ -2,11 +2,11 @@ import startGame from "./startGame.js";
 
 function random (newGame){
 
-    var player1; //me permite retornar el valor y almacenarla en index.js: player1 = random(newGame);
+    var player1;
     const randomMatch = Math.floor(Math.random()*2) + 1;
-    const playerInit = document.getElementById("playerInit") //este id viene del index.html en la ventana modal
+    const playerInit = document.getElementById("playerInit")
 
-    if(randomMatch === 1){ //discriminar si el valor inicial es 1 o 2.
+    if(randomMatch === 1){
         playerInit.innerText = 'Inicia el Jugador 1';
         player1 = true;
 
@@ -16,22 +16,22 @@ function random (newGame){
         player1 = false;
     }
 
-    let modal = document.querySelectorAll('.modal')[0]; //mostrar en el modal
-    let modalContainer = document.querySelectorAll('.modal-container')[0]//selección de clase modal y modal-container
+    let modal = document.querySelectorAll('.modal')[0];
+    let modalContainer = document.querySelectorAll('.modal-container')[0]
 
-    modalContainer.style.opacity = '1'; //cambio de estilio de la ventana modal
+    modalContainer.style.opacity = '1';
     modalContainer.style.visibility = 'visible';
-    modal.classList.toggle('modal-close'); //que le añada/quite la clase modal-close
+    modal.classList.toggle('modal-close');
     startGame(newGame, player1);
 
     const btnRandGame = document.getElementById('randomGame');
-    btnRandGame.disable = true; //desabilitar el botón
-    btnRandGame.style.backgroundColor = 'indigo'; //estilo al botón para q se vea inactivo
-    btnRandGame.style.cursor = 'default'; //quitar el cursor pointer
+    btnRandGame.disable = true;
+    btnRandGame.style.backgroundColor = 'indigo';
+    btnRandGame.style.cursor = 'default';
 
-    const btnReset = document.getElementById('reset'); //activar el btn reiniciar
-    btnReset.disable = false; //activar el btn
-    btnReset.style.backgroundColor = '$button-color'; //cambiar el color para q se vea inactivo
+    const btnReset = document.getElementById('reset');
+    btnReset.disable = false;
+    btnReset.style.backgroundColor = '$button-color';
     btnReset.style.cursor = 'pointer';
 
     return player1;
@@ -39,4 +39,3 @@ function random (newGame){
 }
 
 export default random;
-//exportamos la función para poder usarla en index.js

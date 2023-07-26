@@ -1,7 +1,6 @@
 //Función que determina el ganador de la partida:
 
 //código Player 1:
-
 function winPlayer1 (score1) {
 
     const player1Img = document.getElementById('img_player1');
@@ -15,12 +14,12 @@ function winPlayer1 (score1) {
     document.getElementById('player1_title').style.fontSize = '18px';
     document.getElementById('player2_title').style.fontSize = '18px';
 
-    const score1 = document.getElementById('score1');//cambia el 0 por el valor que le indiquemos
-    const score1m = document.getElementById('score_1m');//score versión mobile
-    score1.innerText = score1; //se le pasan los puntos q nos hemos traido de const score1
+    const score1 = document.getElementById('score1');
+    const score1m = document.getElementById('score_1m');
+    score1.innerText = score1;
     score1m.innerText = score1;
 
-//activar el btn de nuevo juego
+    //activar el btn de nuevo juego
     const newGame = document.getElementById('newGame');
     newGame.disabled = false;
     newGame.style.backgroundColor = 'cornsilk';
@@ -29,7 +28,7 @@ function winPlayer1 (score1) {
     //limpiar los botones
     for(var i = 1; i < 10; i++){
         let string = 'button_active'+i;
-        document.getElementById(string).disabled = true; //coger los elementos por el id basados en este string para que desactive los botones.
+        document.getElementById(string).disabled = true;
     }
 }
 
@@ -48,12 +47,12 @@ function winPlayer2 (score2) {
     document.getElementById('player1_title').style.fontSize = '18px';
     document.getElementById('player2_title').style.fontSize = '18px';
 
-    const score2 = document.getElementById('score2');//cambia el 0 por el valor que le indiquemos
-    const score2m = document.getElementById('score_2m');//score versión mobile
-    score2.innerText = score2; //se le pasan los puntos q nos hemos traido de const score1
+    const score2 = document.getElementById('score2');
+    const score2m = document.getElementById('score_2m');
+    score2.innerText = score2;
     score2m.innerText = score2;
 
-//activar el btn de nuevo juego
+    //activar el btn de nuevo juego
     const newGame = document.getElementById('newGame');
     newGame.disabled = false;
     newGame.style.backgroundColor = 'cornsilk';
@@ -62,7 +61,7 @@ function winPlayer2 (score2) {
     //limpiar los botones
     for(var i = 1; i < 10; i++){
         let string = 'button_active'+i;
-        document.getElementById(string).disabled = true; //coger los elementos por el id basados en este string para que desactive los botones.
+        document.getElementById(string).disabled = true;
     }
 }
 

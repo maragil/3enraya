@@ -2,16 +2,16 @@ import turnGame from "./turnGame.js";
 
 function startGame (newGame, player1) {
 
-    var i; //para hacer el barrido
+    var i;
 
-    if(!newGame){ //si nuevo juego es falso, prepara la pimera partida, iterando en los botones del tablero, activándolos
+    if(!newGame){
 
         for(i=1; i<10; i++){
             let string = 'button_active' + i;
             document.getElementById(string).style.display = 'block';
         }
 
-    } else { //en caso de q no sea nuevo juego
+    } else {
 
         for(i=1; i<10; i++){
             let string = 'button_active' + i;

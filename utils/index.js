@@ -88,6 +88,9 @@ window.addEventListener('click',
 
 activeBtn1.onclick = () => {
     var result = btn1(player1, matrix, selectionCounter);
+    player1 = result[0];
+    matrix= result[1];
+    winner = result[2];
 
     clicksCounter();
 
