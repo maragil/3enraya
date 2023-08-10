@@ -8,7 +8,7 @@ import { btn1 } from "./boardBtns.js";
 var player1; //true or false
 var newGame = false; //primer juego
 var selectionCounter = 0;
-var winner = 0; //0 1 2 3
+var winner = 0; //estados: 0 1 2 3
 var score1 = 0; //puntos player1
 var score2 = 0; //puntos player2
 
@@ -97,6 +97,6 @@ activeBtn1.onclick = () => {
 
     points();
 
-    console.log(matrix);
+    console.log(matrix); //este es el console que me marca undefined, y debería marcar las coord dnd se clica
 }
 
