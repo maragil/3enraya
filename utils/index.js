@@ -3,7 +3,9 @@
 import random from "./random.js";
 import hideModal from "./hideModal.js";
 import { winPlayer1, winPlayer2 } from "./winner.js";
-import { btn1 } from "./boardBtns.js";
+import {    btn1, btn2, btn3,
+            btn4, btn5, btn6,
+            btn7, btn8, btn9 } from "./boardBtns.js";
 
 var player1; //true or false
 var newGame = false; //primer juego
@@ -55,8 +57,6 @@ function points () {
     }
 }
 
-
-
 raffleGame.onclick = () => {
     player1 = random(newGame);
 }
@@ -97,6 +97,104 @@ activeBtn1.onclick = () => {
 
     points();
 
-    console.log(matrix); //este es el console que me marca undefined, y debería marcar las coord dnd se clica
+    //console.log(matrix); //este es el console que me marca undefined, y debería marcar las coord dnd se clica
 }
 
+activeBtn2.onclick = () => {
+    var result = btn2(player1, matrix, selectionCounter);
+    player1 = result[0];
+    matrix= result[1];
+    winner = result[2];
+
+    clicksCounter();
+
+    points();
+}
+
+activeBtn2.onclick = () => {
+    var result = btn2(player1, matrix, selectionCounter);
+    player1 = result[0];
+    matrix= result[1];
+    winner = result[2];
+
+    clicksCounter();
+
+    points();
+}
+
+activeBtn3.onclick = () => {
+    var result = btn3(player1, matrix, selectionCounter);
+    player1 = result[0];
+    matrix= result[1];
+    winner = result[2];
+
+    clicksCounter();
+
+    points();
+}
+
+activeBtn4.onclick = () => {
+    var result = btn4(player1, matrix, selectionCounter);
+    player1 = result[0];
+    matrix= result[1];
+    winner = result[2];
+
+    clicksCounter();
+
+    points();
+}
+
+activeBtn5.onclick = () => {
+    var result = btn5(player1, matrix, selectionCounter);
+    player1 = result[0];
+    matrix= result[1];
+    winner = result[2];
+
+    clicksCounter();
+
+    points();
+}
+
+activeBtn6.onclick = () => {
+    var result = btn6(player1, matrix, selectionCounter);
+    player1 = result[0];
+    matrix= result[1];
+    winner = result[2];
+
+    clicksCounter();
+
+    points();
+}
+
+activeBtn7.onclick = () => {
+    var result = btn7(player1, matrix, selectionCounter);
+    player1 = result[0];
+    matrix= result[1];
+    winner = result[2];
+
+    clicksCounter();
+
+    points();
+}
+
+activeBtn8.onclick = () => {
+    var result = btn8(player1, matrix, selectionCounter);
+    player1 = result[0];
+    matrix= result[1];
+    winner = result[2];
+
+    clicksCounter();
+
+    points();
+}
+
+activeBtn9.onclick = () => {
+    var result = btn9(player1, matrix, selectionCounter);
+    player1 = result[0];
+    matrix= result[1];
+    winner = result[2];
+
+    clicksCounter();
+
+    points();
+}

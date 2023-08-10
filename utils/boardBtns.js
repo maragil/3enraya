@@ -261,6 +261,7 @@ function btn9 (player1, matrix, selectionCounter) {
 
     return (player1, matrix, winner)
 }
+
 export  {   btn1, btn2, btn3,
             btn4, btn5, btn6,
             btn7, btn8, btn9    };
