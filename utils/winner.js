@@ -5,7 +5,7 @@ function winPlayer1 (score1) {
 
     const player1Img = document.getElementById('img_player1');
     player1Img.src = './images/feliz.png';
-    player1Img.style.width = '80%';
+    player1Img.style.width = '120%';
 
     const player2Img = document.getElementById('img_player2');
     player2Img.src = './images/triste.png';
@@ -42,7 +42,7 @@ function winPlayer2 (score2) {
 
     const player2Img = document.getElementById('img_player2');
     player2Img.src = './images/feliz.png';
-    player2Img.style.width = '80%';
+    player2Img.style.width = '120%';
 
     document.getElementById('player1_title').style.fontSize = '18px';
     document.getElementById('player2_title').style.fontSize = '18px';
