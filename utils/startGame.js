@@ -2,7 +2,7 @@ import turnGame from "./turnGame.js";
 
 function startGame (newGame, player1) {
 
-    var i;
+    var i; //hace el barrido
 
     if(!newGame){
 

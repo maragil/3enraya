@@ -1,6 +1,6 @@
 //Función que determina el ganador de la partida:
 
-//código Player 1:
+//Player 1:
 function winPlayer1 (score1) {
 
     const player1Img = document.getElementById('img_player1');
@@ -33,7 +33,7 @@ function winPlayer1 (score1) {
 }
 
 
-//código Player 2:
+//Player 2:
 function winPlayer2 (score2) {
 
     const player1Img = document.getElementById('img_player1');
