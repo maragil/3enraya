@@ -22,6 +22,7 @@ var matrix = [
 
 const raffleGame = document.querySelector('#randomGame');
 const start = document.querySelector('#start');
+const nextGame = document.querySelector('#newGame');
 
 const activeBtn1 = document.querySelector('#button_active1');
 const activeBtn2 = document.querySelector('#button_active2');
@@ -195,4 +196,48 @@ activeBtn9.onclick = () => {
     clicksCounter();
 
     points();
+}
+
+nextGame.onclick = () => {
+    winner = 0; //reinicia ganador
+    selectionCounter = 0; //reinicia contador
+    newGame = true; //nuevo juego en true, xq en el 1º juego está en false
+
+    matrix = [
+        [0, 0, 0],
+        [0, 0, 0],
+        [0, 0, 0]
+    ]; //reiniciar la matriz
+
+    //habilitar el btn del random, para poder sortear la partida nuevamente.
+    const btnRandGame = document.getElementById('randomGame');
+    btnRandGame.disable = false;
+    btnRandGame.style.backgroundColor = 'cornsilk';
+    btnRandGame.style.cursor = 'pointer';
+
+    //desabilitar el btn newGame
+    const btnNewGame = document.getElementById('newGame');
+    btnNewGame.disable = true;
+    btnNewGame.style.backgroundColor = 'indigo';
+    btnNewGame.style.cursor = 'default';
+
+    //volver a las imágenes de inicio
+    const imgPlayer1 = document.getElementById('img_player1');
+    imgPlayer1.src = './images/inicio-partida.png';
+    imgPlayer1.style.width = '80%';
+
+    const imgPlayer2 = document.getElementById('img_player2');
+    imgPlayer2.src = './images/inicio-partida.png';
+    imgPlayer2.style.width = '80%';
+
+
+    for(var i=1; i<10; i++){
+        let string = 'button_active'+i;
+
+        document.getElementById(string).innerText = null; //limpiar el tablero
+        document.getElementById(string).disabled = true; //desactivar los btns
+        document.getElementById(string).style.cursor = 'default'; //cursor desactivado
+    }
+
+    //volver a activar los botones
 }

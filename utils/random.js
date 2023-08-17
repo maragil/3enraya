@@ -32,7 +32,7 @@ function random (newGame){
     const btnReset = document.getElementById('reset');
     btnReset.disable = false;
     btnReset.style.backgroundColor = '$button-color';
-    btnReset.style.cursor = 'pointer';
+    btnReset.style.cursor = 'default';
 
     return player1;
 

@@ -15,7 +15,7 @@ function startGame (newGame, player1) {
 
         for(i=1; i<10; i++){
             let string = 'button_active' + i;
-            document.getElementById(string).disabled = 'false';
+            document.getElementById(string).disabled = false;
             document.getElementById(string).style.cursor = 'pointer';
         }
 
