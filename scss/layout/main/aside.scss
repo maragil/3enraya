@@ -16,32 +16,33 @@
         flex-direction: row;
         align-items: center;
         gap: 10px;
-        // height: calc(100vh - 100px);
+
         &__aside{
-            display: block;
-            width: 20%;
-            height: 100%;
-            border: 2px solid white;
-            border-radius: 20px;
-            background: $score-players-color;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
+        width: 20%;
+        height: 100%;
+        border: 2px solid white;
+        border-radius: 20px;
+        background: $score-players-color;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
             &-h2{
-                letter-spacing: 1.5px;
-                font-size: 1.8rem;
-                text-align: center;
+            letter-spacing: 1.5px;
+            font-size: 1.8rem;
+            text-align: center;
             }
             &-picture{
-                width: 80%;
-                display: flex;
-                justify-content: center;
+            width: 80%;
+            display: flex;
+            justify-content: center;
                 &__emoji{
-                    width: 80%;
+                width: 80%;
                 }
             }
         }
+
         &__div{
         display: flex;
         flex-direction: column;
