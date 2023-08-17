@@ -30,8 +30,8 @@ function random (newGame){
     btnRandGame.style.cursor = 'default';
 
     const btnReset = document.getElementById('reset');
-    btnReset.disable = false;
-    btnReset.style.backgroundColor = '$button-color';
+    btnReset.disabled = false;
+    btnReset.style.backgroundColor = 'cornsilk';
     btnReset.style.cursor = 'default';
 
     return player1;

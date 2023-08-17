@@ -20,9 +20,10 @@ var matrix = [
     [0, 0, 0]
 ];
 
-const raffleGame = document.querySelector('#randomGame');
-const start = document.querySelector('#start');
-const nextGame = document.querySelector('#newGame');
+const btnStart = document.querySelector('#start'); //btn start del modal
+const btnRaffleGame = document.querySelector('#randomGame'); //btn randomGame
+const btnNextGame = document.querySelector('#newGame'); //btn newGame
+const btnReset = document.querySelector('#reset'); //btn reset
 
 const activeBtn1 = document.querySelector('#button_active1');
 const activeBtn2 = document.querySelector('#button_active2');
@@ -58,11 +59,11 @@ function points () {
     }
 }
 
-raffleGame.onclick = () => {
+btnRaffleGame.onclick = () => {
     player1 = random(newGame);
 }
 
-start.onclick = () =>{
+btnStart.onclick = () =>{
     hideModal();
 }
 
@@ -198,18 +199,18 @@ activeBtn9.onclick = () => {
     points();
 }
 
-nextGame.onclick = () => {
+btnNextGame.onclick = () => {
     winner = 0; //reinicia ganador
     selectionCounter = 0; //reinicia contador
-    newGame = true; //nuevo juego en true, xq en el 1º juego está en false
+    newGame = true; //xq en el 1º juego está en false
 
-    matrix = [
+    matrix = [ //reiniciar la matriz
         [0, 0, 0],
         [0, 0, 0],
         [0, 0, 0]
-    ]; //reiniciar la matriz
+    ];
 
-    //habilitar el btn del random, para poder sortear la partida nuevamente.
+    //habilitar el btnRandGame, para poder sortear la partida nuevamente.
     const btnRandGame = document.getElementById('randomGame');
     btnRandGame.disable = false;
     btnRandGame.style.backgroundColor = 'cornsilk';
@@ -238,6 +239,13 @@ nextGame.onclick = () => {
         document.getElementById(string).disabled = true; //desactivar los btns
         document.getElementById(string).style.cursor = 'default'; //cursor desactivado
     }
+}
 
-    //volver a activar los botones
+btnReset.onclick = () => {
+    let option = confirm('¿Estás seguro de reiniciar el juego?')
+
+    if(option){
+        location.reload(); //método de JS para recargar la web
+
+    }
 }
