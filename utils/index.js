@@ -96,8 +96,6 @@ activeBtn1.onclick = () => {
     clicksCounter();
 
     points();
-
-    //console.log(matrix); //este es el console que me marca undefined, y debería marcar las coord dnd se clica
 }
 
 activeBtn2.onclick = () => {

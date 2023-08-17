@@ -168,7 +168,7 @@ function validate(player1, matrix, selectionCounter){
         newGame.disable = false;
         newGame.style.backgroundColor = 'cornsilk';
         newGame.style.cursor = 'pointer';
-        winner = 3;
+        winner = 3; //Empate
     }
 
     return winner;

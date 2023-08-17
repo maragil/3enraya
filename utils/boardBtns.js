@@ -33,7 +33,7 @@ function btn1 (player1, matrix, selectionCounter) { //es dnd se actualiza la mat
     }
 
     //retornamos los valores:
-    return (player1, matrix, winner)    //player1 con su nuevo estado: true o false
+    return [player1, matrix, winner]    //player1 con su nuevo estado: true o false
                                         //la matriz actualizada --> matrix[0][0] = player1 ? 'x' : 'o';
                                         //winner si hay ganador con su estados: 0, 1, 2 o 3.
 }
@@ -63,7 +63,7 @@ function btn2 (player1, matrix, selectionCounter) {
         turnGame(player1)
     }
 
-    return (player1, matrix, winner)
+    return [player1, matrix, winner]
 }
 
 function btn3 (player1, matrix, selectionCounter) {
@@ -91,7 +91,7 @@ function btn3 (player1, matrix, selectionCounter) {
         turnGame(player1)
     }
 
-    return (player1, matrix, winner)
+    return [player1, matrix, winner]
 }
 
 function btn4 (player1, matrix, selectionCounter) {
@@ -119,7 +119,7 @@ function btn4 (player1, matrix, selectionCounter) {
         turnGame(player1)
     }
 
-    return (player1, matrix, winner)
+    return [player1, matrix, winner]
 }
 
 function btn5 (player1, matrix, selectionCounter) {
@@ -147,7 +147,7 @@ function btn5 (player1, matrix, selectionCounter) {
         turnGame(player1)
     }
 
-    return (player1, matrix, winner)
+    return [player1, matrix, winner]
 }
 
 function btn6 (player1, matrix, selectionCounter) {
@@ -175,7 +175,7 @@ function btn6 (player1, matrix, selectionCounter) {
         turnGame(player1)
     }
 
-    return (player1, matrix, winner)
+    return [player1, matrix, winner]
 }
 
 function btn7 (player1, matrix, selectionCounter) {
@@ -203,7 +203,7 @@ function btn7 (player1, matrix, selectionCounter) {
         turnGame(player1)
     }
 
-    return (player1, matrix, winner)
+    return [player1, matrix, winner]
 }
 
 function btn8 (player1, matrix, selectionCounter) {
@@ -231,7 +231,7 @@ function btn8 (player1, matrix, selectionCounter) {
         turnGame(player1)
     }
 
-    return (player1, matrix, winner)
+    return [player1, matrix, winner]
 }
 
 function btn9 (player1, matrix, selectionCounter) {
@@ -259,7 +259,7 @@ function btn9 (player1, matrix, selectionCounter) {
         turnGame(player1)
     }
 
-    return (player1, matrix, winner)
+    return [player1, matrix, winner]
 }
 
 export  {   btn1, btn2, btn3,
