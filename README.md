@@ -38,6 +38,6 @@ Esta muy bien si fuese posible indicar además las versiones de cada uno de los 
 
 Si te ha gustado este juego, puedes ver mis otros proyetos en mi porfolio:
 
-<https://www.maragil.com>
+<!-- <https://www.maragil.com> -->
 
-<!-- <a href="https://www.maragil.com" target="_blank" rel="noreferrer"> <img src="images/porfolio.png" alt="html5" width="300" height="150"/> -->
+<a href="https://www.maragil.com" target="_blank" rel="noreferrer"> <img src="images/porfolio(tiny).png" alt="html5" width="300" height="150"/>
