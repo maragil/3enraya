@@ -18,7 +18,7 @@ Si se quiere reiniciar el juego desde el principio, se puede hacer en el botón 
 
 ---
 
-## :card_index_dividers: PRERREQUISITOS.
+## :rocket: PRERREQUISITOS/INSTALACIÓN.
 
 Este poyecto está hecho con <a href="https://www.w3schools.com/html/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/></a>,<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></a>,<a href="https://sass-lang.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/></a> y <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>.
 
@@ -29,10 +29,6 @@ Para visualizar el proyecto sólo tienes que abrir el **index.html** en el naveg
 Si se quieren hacer cambios de estilo, hay que utilizar el comando `sass scss/styles.scss:main.css --watch`, para visualizar de manera inmediata los cambios en el navegador.
 
 ---
-
-(Todo lo que debe tener previamente aquel que se vaya a clonar nuestro proyecto para ponerlo en marcha. Sistema operativo, aplicaciones, lenguajes de programación, librerías, etc. Hemos de ponernos en el lugar de cualquier usuario que quiera poner en marcha nuestro repositorio.
-
-Esta muy bien si fuese posible indicar además las versiones de cada uno de los pre-requisitos de nuestro proyecto. Así como también estaría bien en caso de que no sea muy trival los pasos que hay que hacer para instalarlos o configurarlos.)
 
 ### 🟣 CONTACTO
 
