@@ -32,8 +32,6 @@ Si se quieren hacer cambios de estilo, hay que utilizar el comando `sass scss/st
 
 ### 🟣 CONTACTO
 
-Si te ha gustado este juego, puedes ver mis otros proyetos en mi porfolio:
+¡Espero que te haya gustado esta aplicación! 💚
 
-<!-- <https://www.maragil.com> -->
-
-<a href="https://www.maragil.com" target="_blank" rel="noreferrer"> <img src="images/porfolio(tiny).png" alt="html5" width="300" height="150"/>
+Este y otros proyetos los puedes encontrar en mi porfolio: <https://www.maragil.com> 
