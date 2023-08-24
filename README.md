@@ -52,4 +52,4 @@ Este proyecto ha sido creado utilizando una combinación de herramientas y tecno
 
 ¡Espero que hayas ganado! Y sobre todo espero que te hayas divertido 💚
 
-Este y otros proyetos los puedes encontrar en mi porfolio: <https://www.maragil.com> 
+Este y otros proyectos los puedes encontrar en mi porfolio: <https://www.maragil.com> 
