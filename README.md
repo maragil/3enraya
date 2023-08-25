@@ -18,6 +18,8 @@ Si se quiere reiniciar el juego desde el principio, se puede hacer en el botón 
 
 ## :rocket: Instalación.
 
+Para poder ejecutar y utilizar este proyecto, sigue los siguientes pasos:
+
 1. Clona este repositorio en tu máquina local.
    ```bash
    git clone https://github.com/tuusuario/3enraya.git
