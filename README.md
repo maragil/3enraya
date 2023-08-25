@@ -14,7 +14,6 @@ Hay que clicar en **nuevo juego** para limpiar el tablero y volver a **sortear l
 
 Si se quiere reiniciar el juego desde el principio, se puede hacer en el botón de **reiniciar**. Este resetea los contadores de puntuación y limpia el tablero de juego.
 
----
 
 ## :rocket: Instalación.
 
@@ -32,7 +31,6 @@ Para poder ejecutar y utilizar este proyecto, sigue los siguientes pasos:
    
 4. Si se quieren hacer cambios de estilo, hay que utilizar el comando `sass scss/styles.scss:main.css --watch`, para visualizar de manera inmediata los cambios en el navegador o habilitar la extensión **Live Sass Compiler** en Visual Studio Code.
 
----
 
 ## :hammer_and_pick: Herramientas y tecnologías.
 
@@ -47,9 +45,8 @@ Este proyecto ha sido creado utilizando una combinación de herramientas y tecno
  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40"/> </a>
 </p>
 
----
 
-## :mailbox: CONTACTO
+## :mailbox: Contacto.
 
 ¡Espero que hayas ganado! Y sobre todo espero que te hayas divertido 💚
 
